@@ -1,0 +1,19 @@
+legend{
+    color:#009;
+}
+
+h1+p{
+    font-size: 22px;
+}
+
+label{
+    display: block;
+} 
+
+label+input{
+    clear: both;
+}
+
+fieldset:not(:first-of-type){
+    margin: 5em 0;
+}

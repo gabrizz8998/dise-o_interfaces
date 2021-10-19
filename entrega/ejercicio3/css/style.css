@@ -1,0 +1,24 @@
+*{
+    background-color:rgb(226, 218, 121);
+    margin-left: 80px;
+    margin-right: 40px;
+    text-align:justify
+}
+
+#banner{
+    margin-left: -90px;
+    margin-right: 0px;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+
+hr{
+    border: 1px solid green;
+}
+
+h1,h2,h3{
+    color:green;
+}
