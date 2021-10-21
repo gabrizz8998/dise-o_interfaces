@@ -13,17 +13,32 @@ section{
     flex-wrap: wrap;
 }
 
-div+div+div+div+div+div{
-    background-color:#e91e63;
-}
-div+div+div+div+div+div+div{
-    background-color:purple;
-}
 
-div:nth-child(3n){
+/* 	Colorea el cuadro número 6 */
+/* div:nth-child(100n+6){
     background-color:#e91e63;
-}
+} */
 
-div:last-of-type{
+/* Colorea los cuadros 3, 6, 9, 12, 15 y 18 */
+/* div:nth-child(3n){
     background-color:#e91e63;
-}
+} */
+
+
+/*  •	Colorea los cuadros del 8 al 20*/
+/* div:nth-child(n+8){
+    background-color:#e91e63;
+} */
+
+
+/*  •	A partir de 5 colorea uno de cada 3: 5, 8, 11, 14, 17, 20*/
+/* 
+div:nth-child(3n+5){
+    background-color:#e91e63;
+}   */
+
+
+/* •	Colorea el último cuadro */
+/* div:last-of-type{
+    background-color:#e91e63;
+} */
