@@ -8,7 +8,7 @@ tr th:first-of-type{
     text-align:left;
 }
 tr:first-of-type{
-    background-color:rgb(150, 15, 15);
+    background-color:rgb(114, 114, 114);
     color:white;
     
 }
@@ -16,8 +16,8 @@ tr:first-of-type{
 
 /* cuerpo color */
 
-tr:nth-child(odd){
-    background-color:lightgrey;
+tr:nth-child(odd):not(:first-of-type){
+    background-color:rgb(219, 218, 218);
 }
 
 /* alinear texto */
