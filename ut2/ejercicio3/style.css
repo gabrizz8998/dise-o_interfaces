@@ -1,0 +1,37 @@
+table{
+    width:50%;
+    border-collapse: collapse;
+    margin:30px auto;
+}
+/* cabezera */
+tr th:first-of-type{
+    text-align:left;
+}
+tr:first-of-type{
+    background-color:grey;
+    color:white;
+    
+}
+
+
+/* cuerpo color */
+
+tr+tr+tr{
+    background-color:rgb(177, 177, 177);
+}
+tr+tr+tr+tr{
+    background-color:white;
+}
+
+/* alinear texto */
+tr th:last-of-type{
+    text-align:right;
+}
+
+tr td:last-of-type{
+    text-align:right;
+}
+
+tr td:not(:last-of-type,:first-of-type){
+    text-align: center;
+}
